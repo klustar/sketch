@@ -31,11 +31,11 @@ def square_joseon(a):
             a=a*2
             a=int(a)
             if(record==a*a):
-                print(record+"의 제곱근: ")
+                print(str(record)+"의 제곱근: ")
                 return a
             else:
                 print("제곱수가 아님")
-                return a
+                break
 
 
 print(abs_sign(5))
@@ -45,4 +45,4 @@ print(abs_square(5))
 print(abs_square(-3))
 print()
 print(square_joseon(25))
-print(square_joseon(6))
+print(square_joseon(5))
